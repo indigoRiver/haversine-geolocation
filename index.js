@@ -1,4 +1,6 @@
-class HaversineGeolocation {
+`'use strict';
+
+module.exports = class HaversineGeolocation {
   /**
    * Convert measurements: "km to mi" or "km to m"
    *
@@ -134,5 +136,3 @@ class HaversineGeolocation {
     return data;
   };
 }
-
-export default new HaversineGeolocation();
